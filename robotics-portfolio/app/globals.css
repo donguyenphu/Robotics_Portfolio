@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #02040b;
+  --foreground: #f8fafc;
 }
 
 @theme inline {
@@ -14,13 +14,36 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #02040b;
+    --foreground: #f8fafc;
   }
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle at top, rgba(56, 189, 248, 0.08), transparent 30%),
+    linear-gradient(180deg, #02040b 0%, #05070f 55%, #02040b 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+@keyframes auroraGlow {
+  0%, 100% {
+    opacity: 0.25;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: translateY(-12px) scale(1.05);
+  }
+}
+
+@layer utilities {
+  .animate-aurora-glow {
+    animation: auroraGlow 10s ease-in-out infinite;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
 }
