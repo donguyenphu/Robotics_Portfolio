@@ -9,11 +9,12 @@ const navItems = [
 ];
 
 const socialMedia = [
-    { name: "GitHub", href: "https://github.com/donguyenphu" , icon: `<i class="fa-brands fa-square-github text-4xl"></i>`},
-    { name: "LinkedIn", href: "https://www.linkedin.com/in/nguy%C3%AAn-ph%C3%BA-%C4%91%E1%BB%97-47986330b/?skipRedirect=true" , icon: `<i class="fa-brands fa-square-linkedin text-4xl"></i>`},
-    { name: "X", href: "https://twitter.com" , icon: `<i class="fa-brands fa-square-x-twitter text-4xl"></i>`},
-    { name: "Instagram", href: "https://www.instagram.com/priviet_man/" , icon: `<i class="fa-brands fa-square-instagram text-4xl"></i>`},
-    { name: "Email", href: "domichael15022008@gmail.com" , icon: `<i class="fa-solid fa-square-envelope text-4xl"></i>`},
+    { name: "GitHub", href: "https://github.com/donguyenphu", icon: `<i class="fa-brands fa-square-github text-4xl"></i>` },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/nguy%C3%AAn-ph%C3%BA-%C4%91%E1%BB%97-47986330b/?skipRedirect=true", icon: `<i class="fa-brands fa-square-linkedin text-4xl"></i>` },
+    { name: "X", href: "https://x.com/justmichaeldo", icon: `<i class="fa-brands fa-square-x-twitter text-4xl"></i>` },
+    { name: "Instagram", href: "https://www.instagram.com/priviet_man/", icon: `<i class="fa-brands fa-square-instagram text-4xl"></i>` },
+    { name: "Email", href: "domichael15022008@gmail.com", icon: `<i class="fa-solid fa-square-envelope text-4xl"></i>` },
+    { name: "Facebook", href: "https://web.facebook.com/phucusoncaria/", icon: `<i class="fa-brands fa-square-facebook text-4xl"></i>` },
 ];
 
 export default function Footer() {
@@ -55,8 +56,10 @@ export default function Footer() {
                         <div className="grid grid-rows-5 gap-4">
                             {socialMedia.map((item) => (
                                 <Link key={item.name} href={item.href} target="_blank" rel="noopener noreferrer" className="transition text-zinc-300 duration-200 hover:text-cyan-200 text-2xl flex items-center gap-2">
-                                    <span dangerouslySetInnerHTML={{ __html: item.icon }} className="f"/>
-                                    <span className="text-lg font-semibold text-white">{item.name}</span>
+                                    <span className="flex items-center gap-2">
+                                        <span dangerouslySetInnerHTML={{ __html: item.icon }} className="f" />
+                                        <span className="text-lg font-semibold text-white">{item.name}</span>
+                                    </span>
                                 </Link>
                             ))}
                         </div>
