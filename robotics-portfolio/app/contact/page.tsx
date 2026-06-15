@@ -117,9 +117,6 @@ export default function Contact() {
                         <div>
                             <p className="text-md uppercase tracking-[0.35em] text-cyan-300">Let’s connect</p>
                             <h2 className="mt-3 text-2xl font-semibold text-white">Reach out directly</h2>
-                            <p className="mt-3 text-md leading-7 text-zinc-400">
-                                Prefer to connect on social media? Use any of the platforms below and I’ll reply as soon as possible.
-                            </p>
                         </div>
 
                         <div className="space-y-4">
@@ -137,7 +134,13 @@ export default function Contact() {
                                 <Link href="+1234567890" target="_blank" rel="noopener noreferrer" className="transition text-zinc-300 duration-200 hover:text-cyan-200 text-2xl flex items-center">
                                     <div className="flex items-center gap-1">
                                         <span dangerouslySetInnerHTML={{ __html: `<i class="fa-solid fa-square-phone text-4xl"></i>` }} className="f" />
-                                        <span className="text-lg">: +1 (234) 567-890</span>
+                                        <span className="text-lg">: +1 (234) 567-890 (US)</span>
+                                    </div>
+                                </Link>
+                                <Link href="+1234567890" target="_blank" rel="noopener noreferrer" className="transition text-zinc-300 duration-200 hover:text-cyan-200 text-2xl flex items-center">
+                                    <div className="flex items-center gap-1">
+                                        <span dangerouslySetInnerHTML={{ __html: `<i class="fa-solid fa-square-phone text-4xl"></i>` }} className="f" />
+                                        <span className="text-lg">: +84 849566286 (Vietnam)</span>
                                     </div>
                                 </Link>
                             </div>
