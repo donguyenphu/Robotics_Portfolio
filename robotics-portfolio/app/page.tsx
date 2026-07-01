@@ -100,9 +100,9 @@ export default function Home() {
               <div className="space-y-4">
                 <p className="text-sm uppercase tracking-[0.35em] text-cyan-300">Education</p>
                 <h2 className="text-3xl font-semibold text-white">Undergraduate</h2>
-                <p className="max-w-xl text-md leading-7 text-zinc-300">
+                {/* <p className="max-w-xl text-md leading-7 text-zinc-300">
                   Building a strong foundation in computer science and engineering while preparing for robotics research and systems design.
-                </p>
+                </p> */}
               </div>
 
               <div className="rounded-[2rem] border border-white/10 bg-[#07131e]/90 p-8 shadow-xl shadow-cyan-500/10">
