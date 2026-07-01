@@ -9,7 +9,7 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-[#02040b] text-white">
       <Header />
-      <main className="mx-auto max-w-7xl px-6 py-14">
+      <main className="mx-auto max-w-7xl py-14">
         <div className="grid gap-8 xl:grid-cols-2">
           {posts.map((post) => (
             <Link
@@ -17,7 +17,7 @@ export default function ProjectsPage() {
               href={post.href}
               className="group overflow-hidden rounded-[2rem] border border-white/10 bg-[#08101f]/80 shadow-[0_20px_80px_rgba(79,70,229,0.12)] transition hover:-translate-y-1 hover:border-cyan-300/20"
             >
-              <div className="relative h-64 overflow-hidden bg-slate-900">
+              <div className="relative h-70 overflow-hidden bg-slate-900">
                 <img
                   src={post.image}
                   alt={post.title}
