@@ -39,8 +39,8 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </div>
           {/* II */}
           <h2 className="mt-2 text-2xl font-bold text-white">II. Ideation & Concept Selection </h2>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">Throughout the preparation for the season, after analysing the game and optimizing scoring tactics, our team came up with the final design</p>
-          <table className="mt-6 w-[100%] border-collapse border border-white/10 text-left text-lg text-zinc-300">
+          <p className="mt-2 text-lg leading-8 text-zinc-300">Throughout the preparation for the season, after analysing the game and optimizing scoring tactics, our team ,<strong className="text-cyan-300"> 32360 </strong>, came up with the final design (V1)</p>
+          <table className="mt-6 w-[90%] border-collapse border border-white/10 text-left text-lg text-zinc-300 m-auto">
             <thead>
               <tr className="border-b border-white/10 bg-white/5">
                 <th className="px-4 py-2 text-left text-lg font-semibold text-white w-[20%]">Design Aspect</th>
@@ -92,7 +92,29 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </p>
           {/* III */}
           <h2 className="mt-2 text-2xl font-bold text-white">III. Detailed Engineering</h2>
-
+          <p className="text-lg leading-8 text-zinc-300">1. Chassis</p>
+          <div className="flex gap-4 items-center">
+            <div className="w-[80%]">
+              <p className="text-lg leading-8 text-zinc-300">Realizing the problem of having a big chassis led to <strong className="text-cyan-300">shortage of intaking space</strong> and <strong className="text-cyan-300">high intaking ramp</strong>,
+                I decided to make a custom drivetrain to fix these disadvantages with the <strong className="text-cyan-300">width</strong> and <strong className="text-cyan-300">length</strong> optimized by <strong className="text-cyan-300">38.3%</strong> and <strong className="text-cyan-300">1.36%</strong></p>
+            </div>
+            <div className="w-[20%]">
+              <img src="/Bucknell University Logo.png" className="w-full h-auto object-cover" />
+            </div>
+          </div>
+          <p className="text-lg leading-8 text-zinc-300">2. Intake</p>
+          <p className="text-lg leading-8 text-zinc-300">The only disadvantages of rubberband and fully TPU intake is cannot grabbing artifact in <strong className="text-cyan-300">multi direction</strong>, increasing intake time. I moved to the combination of <strong className="text-cyan-300">vectored and TPU wheels</strong>, which will be explained more clearly in the <strong className="text-cyan-300">IV. Validation & Versions</strong></p>
+          <p className="text-lg leading-8 text-zinc-300">3. Ramp && Transfer system</p>
+          <div className="flex gap-4 items-center">
+            <div className="w-[80%]">
+              <p className="text-lg leading-8 text-zinc-300">With the the problem of the indexer size and also time - point strategy (<strong className="text-cyan-300">balance</strong> speed and score instead off <strong className="text-cyan-300">all-in</strong> a perfect score),
+                I decided to remove the trefoil indexer and switched to a <strong className="text-cyan-300">ramp</strong> to the shooter to  <strong className="text-cyan-300">transfer the artifact</strong> using intake motor and GT3 belts, which connects layer of transferring the artifact and a gate launcher to <strong className="text-cyan-300">block/release the artifacts</strong> to the shooter</p>
+            </div>
+            <div className="space-y-3 w-[20%]">
+              <img src="/Bucknell University Logo.png" className="w-full h-50% object-cover" />
+              <img src="/Bucknell University Logo.png" className="w-full h-50% object-cover" />
+            </div>
+          </div>
         </div>
       </main>
       <Footer />
