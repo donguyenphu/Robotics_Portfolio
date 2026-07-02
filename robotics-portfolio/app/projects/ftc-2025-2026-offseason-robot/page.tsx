@@ -106,7 +106,18 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             </div>
           </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">2. Intake</p>
-          <p className="text-lg leading-8 text-zinc-300">The only disadvantages of rubberband and fully TPU intake is cannot grabbing artifact in <strong className="text-cyan-300">multi direction</strong>, increasing intake time. I moved to the combination of <strong className="text-cyan-300">vectored and TPU wheels</strong>, which will be explained more clearly in the <strong className="text-cyan-300">IV. Validation & Versions</strong></p>
+          <div className="flex gap-8 items-center">
+            <div className="w-[40%]">
+              <p className="text-lg leading-8 text-zinc-300">The only disadvantages of rubberband and fully TPU intake is cannot grabbing artifact in <strong className="text-cyan-300">multi direction</strong>, increasing intake time. I moved to the combination of <strong className="text-cyan-300">vectored and TPU wheels</strong>, which will be explained more clearly in the <strong className="text-cyan-300">IV. Validation & Versions</strong></p>
+              <br></br>
+              <p className="text-lg leading-8 text-zinc-300">For both versions, I use flexible intake for <strong className="text-cyan-300">deforming around the ball</strong>, effectively increasing the <strong className="text-cyan-300">capture area</strong> using <strong className="text-cyan-300">Linkage Mechanism</strong></p>
+            </div>
+            <div className="w-[60%]">
+              <div>
+                <img src="/p1/TPU_Direction.png" className="w-full h-auto object-cover" />
+              </div>
+            </div>
+          </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">3. Ramp && Transfer system</p>
           <div className="flex gap-8 items-center">
             <div className="w-[30%]">
@@ -115,7 +126,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             </div>
             <div className="flex gap-4 space-y-3 w-[70%] items-center">
               <div>
-                <img src="/p1/Ramp.png" className="w-full h-auto object-cover" />
+                <img src="/p1/Ramp.PNG" className="w-full h-auto object-cover" />
               </div>
               <div>
                 <img src="/p1/Gate.png" className="w-full h-auto object-cover" />
@@ -148,7 +159,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           <div className="flex gap-4 items-center">
             <div className="w-[50%]">
               <p className="text-lg leading-8 text-zinc-300">
-                To reduce the <strong className="text-cyan-300">state changing time</strong> of hood angle, I decided to use directly the <strong className="text-cyan-300">Servo Horn</strong> as the angle changer instead of through hood gear like  1 : 10 or 1 : 5 ratio shooter as previous version and <strong className="text-cyan-300">minimize the angle loss</strong> from compression using a high torque servo.
+                To reduce the <strong className="text-cyan-300">state changing time</strong> of hood angle, I decided to use directly the <strong className="text-cyan-300">Servo Horn</strong> as the angle changer instead of through hood gear like  1 : 10 or 1 : 5 ratio shooter as previous version and use the 180 Degree Servo for<strong className="text-cyan-300">locking and preventing angle loss</strong>
               </p>
               <p className="text-lg leading-8 text-zinc-300">
                 I used GT3 belt for 2 shooter motors for <strong className="text-cyan-300">better torque</strong> instead of GT2 for precise movement of modules like drivetrain.
@@ -182,8 +193,8 @@ export default function FirstTechChallenge2526OffseasonRobot() {
                 <strong>V2:</strong> After the rubber-band intake that is ineffective in a high intake ramp of V1, I switched to TPU, which is <strong className="text-cyan-300">easy to make, flexible, and suitable</strong> to the material of the ball (EVA’s foam), thereby grabbing the artifact at high speed
               </p>
             </div>
-            <div className="w-[25%] h-[">
-              <img src="/p1/TPU.png" className="w-full h-full object-cover" />
+            <div className="w-[25%]">
+              <img src="/p1/TPU.PNG" className="w-full aspect-[3/2] object-cover" />
             </div>
           </div>
           <div className="flex gap-4 mt-4 items-center">
@@ -243,10 +254,28 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           <p className="mt-2 text-lg leading-8 text-zinc-300">
             <strong>Option 2: REV Ultraplanetary Motor</strong>
             <br></br>
-            With the beginning torque of <strong className="text-cyan-300 text-xl">0.105 (N.m)</strong> adding <strong className="text-cyan-300 text-xl">two 5:1 cartridge gearboxes</strong>, the output torque is safe and also meet the speed requirement 
+            With the beginning torque of <strong className="text-cyan-300 text-xl">0.105 (N.m)</strong> adding <strong className="text-cyan-300 text-xl">two 5:1 cartridge gearboxes</strong>, the output torque is safe and also meet the speed requirement
           </p>
           <p className="mt-2 text-lg leading-8 text-zinc-300">4. Shooter</p>
-
+          <strong><p className="text-lg leading-8 text-zinc-300">Version 2: We optimized the version from V1 disadvantages to:</p></strong>
+          <div className="flex gap-4 items-center">
+            <div className="w-[60%]">
+              <ul>
+                <li>
+                  1 shooter: 2 shooter for equally force distributing and increasing recovery by doubling the torque
+                </li>
+                <li>
+                  High latency of C270: Replace with Limelight 3A with only ⅓ the latency (33ms reduced to 11ms)
+                </li>
+                <li>
+                  Hood Angle: Reduced from 1:10 &rarr; 1:5 ratio with AXON MAX servo
+                </li>
+              </ul>
+            </div>
+            <div className="w-[40%]">
+              <img src="" />
+            </div>
+          </div>
         </div>
       </main>
       <Footer />
