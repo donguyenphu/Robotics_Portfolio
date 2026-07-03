@@ -107,14 +107,18 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">2. Intake</p>
           <div className="flex gap-8 items-center">
-            <div className="w-[40%]">
+            <div className="w-[60%]">
               <p className="text-lg leading-8 text-zinc-300">● The only disadvantages of rubberband and fully TPU intake is cannot grabbing artifact in <strong className="text-cyan-300">multi direction</strong>, increasing intake time. I moved to the combination of <strong className="text-cyan-300">vectored and TPU wheels</strong>, which will be explained more clearly in the <strong className="text-cyan-300">IV. Validation & Versions</strong></p>
               <p className="text-lg leading-8 text-zinc-300">● For both versions, I use flexible intake for <strong className="text-cyan-300">deforming around the ball</strong>, effectively increasing the <strong className="text-cyan-300">capture area</strong> using <strong className="text-cyan-300">Linkage Mechanism</strong></p>
             </div>
-            <div className="w-[60%]">
-              <div>
-                <img src="/p1/TPU_Direction.png" className="w-full h-auto object-cover" />
-              </div>
+            <div className="w-[40%]">
+              <video
+                className="h-[80%] w-auto rounded-xl shadow-lg"
+                controls
+              >
+                <source src="/p1/Linkage.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">3. Ramp && Transfer system</p>
@@ -177,11 +181,24 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             </div>
           </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">6. Half-parking</p>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">
-            ● According to this season’s game manual, the robot’s full parking at the <strong className="text-cyan-300">end game period</strong> is legal if none of the robot’s part exceeds the <strong className="text-cyan-300">18x18 inches</strong> parking area
-            <br></br>
-            -&gt; The robot need a parking mechanism to <strong className="text-cyan-300">lift it up partially</strong> to safely have a full parking in short time. I use <strong className="text-cyan-300">Rotary Leg</strong> mechanism using 2 Servos for double the torque and equally force distributing
-          </p>
+          <div className="flex gap-4 items-center">
+            <div className="w-[60%]">
+              <p className="mt-4 text-lg leading-8 text-zinc-300">
+                ● According to this season’s game manual, the robot’s full parking at the <strong className="text-cyan-300">end game period</strong> is legal if none of the robot’s part exceeds the <strong className="text-cyan-300">18x18 inches</strong> parking area
+                <br></br>
+                -&gt; The robot need a parking mechanism to <strong className="text-cyan-300">lift it up partially</strong> to safely have a full parking in short time. I use <strong className="text-cyan-300">Rotary Leg</strong> mechanism using 2 Servos for double the torque and equally force distributing
+              </p>
+            </div>
+            <div className="w-[40%]">
+              <video
+                className="h-[80%] w-auto rounded-xl shadow-lg"
+                controls
+              >
+                <source src="/p1/Rotary_Leg.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
           {/* IV */}
           <h2 className="mt-2 text-2xl font-bold text-white">IV. Validation & Versions</h2>
           <p className="mt-2 text-lg leading-8 text-zinc-300">On the process of building the final version, I made some iterations:</p>
