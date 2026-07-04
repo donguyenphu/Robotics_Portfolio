@@ -14,38 +14,35 @@ export default function FirstTechChallenge2526() {
     <div className="min-h-screen bg-[#02040b] text-white">
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-14">
-        <section className="mb-10 rounded-[2rem] border border-white/10 bg-[#07101d]/80 p-10 shadow-[0_25px_120px_rgba(79,70,229,0.15)] backdrop-blur-xl">
-          <Link href="/competitions" className="mb-6 inline-flex text-sm font-medium text-fuchsia-300 transition hover:text-fuchsia-100">
-            ← Back to competitions
-          </Link>
-          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] items-start">
-            <div>
-              <p className="text-sm uppercase tracking-[0.35em] text-fuchsia-300">Competition</p>
-              <h1 className="mt-4 text-5xl font-semibold text-white">{post.title}</h1>
-              <p className="mt-6 text-lg leading-8 text-zinc-300">{post.description}</p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                {post.skills.map((skill) => (
-                  <span key={skill} className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-zinc-300">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-[2rem] border border-white/10 bg-[#08101f]/90 p-6 shadow-xl shadow-fuchsia-500/10">
-              <img src={post.image} alt={post.title} className="h-72 w-full rounded-[1.75rem] object-cover" />
-              <div className="mt-6 space-y-4 text-sm text-zinc-300">
-                <div className="rounded-2xl bg-white/5 px-4 py-4">
-                  <p className="font-semibold text-white">Status</p>
-                  <p className="mt-2">{post.status}</p>
-                </div>
-                <div className="rounded-2xl bg-white/5 px-4 py-4">
-                  <p className="font-semibold text-white">Year</p>
-                  <p className="mt-2">{post.date}</p>
-                </div>
-              </div>
-            </div>
+        <Link href="/competitions" className="mb-6 inline-flex text-sm font-medium text-fuchsia-300 transition hover:text-fuchsia-100">
+          ← Back to competitions
+        </Link>
+        <div>
+          <p className="text-sm uppercase tracking-[0.35em] text-fuchsia-300">Competition</p>
+          <h1 className="mt-4 text-5xl font-semibold text-white">{post.title}</h1>
+          <p className="mt-4 text-lg leading-8 text-white"><strong>Role:</strong> Lead Programmer</p>
+          <p className="mt-2 text-lg leading-8 text-white"><strong>Scope:</strong> National</p>
+          <p className="mt-2 text-lg leading-8 text-white"><strong>Timeline:</strong> 05/09/2025 - 30/01/2026</p>
+          {/* I */}
+          <h2 className="mt-4 text-2xl font-bold text-white">I. Competition Overview</h2>
+          <p className="mt-2 text-lg leading-8 text-zinc-300">
+            FIRST Tech Challenge (FTC) is an international robotics competition where students aged from 12 to 18 <strong className="text-fuchsia-300">design, build, program, and operate</strong> robots to compete in a dynamic, head-to-head alliance format . 
+            DECODE™ presented by RTX is the archaeology-themed 2025–2026 game for the FIRST Tech Challenge, requiring <strong className="text-fuchsia-300">two-robot alliances</strong> to <strong className="text-fuchsia-300">rapidly collect, 
+            sort, and score</strong> 36 purple and green sphere "artifacts" into <strong className="text-fuchsia-300">corner goals</strong>. 
+            Robots navigate the playing field using <strong className="text-fuchsia-300">AprilTags of motifs</strong> to complete precise <strong className="text-fuchsia-300">sorting tasks</strong> across autonomous, tele-operated, and strategic end-game phases. 
+            Take a look for more information at the FTC 2025-2026 game overview:
+          </p>
+          <div className="mt-2 flex gap-4 px-6 py-6 justify-center items-center">
+            <iframe
+              width="80%"
+              height="600"
+              src="https://www.youtube.com/embed/LCqWA6gSCXA"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen>
+            </iframe>
           </div>
-        </section>
+        </div>
       </main>
       <Footer />
     </div>

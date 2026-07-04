@@ -35,7 +35,7 @@ export default function SkillsPage() {
               type="search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Try ROS, Python, MATLAB, Control Systems..."
+              placeholder="Type the skills you want to know..."
               className="w-full rounded-3xl border border-white/10 bg-[#0b1626]/90 px-5 py-4 text-lg text-white outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
             />
             <p className="text-sm text-zinc-400">
@@ -76,7 +76,7 @@ export default function SkillsPage() {
                     <span className="text-sm text-zinc-400">{post.date}</span>
                   </div>
                   <h2 className="text-3xl font-semibold text-white">{post.title}</h2>
-                  <p className="text-base leading-7 text-zinc-300">{post.summary}</p>
+                  <p dangerouslySetInnerHTML={{ __html: post.summary }} ></p>
                   <div className="flex flex-wrap gap-3 pt-2">
                     {post.skills.map((skill) => (
                       <span key={skill} className="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-zinc-300">

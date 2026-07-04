@@ -38,7 +38,7 @@ export const competitionPosts: PostEntry[] = [
     description:
       "Competed in a robotics competition to develop a robust autonomous system under tight timelines. The solution combined state estimation, ROS messaging, simulation testing, and a strong focus on reliability and team collaboration.",
     image:
-      "c1/first-tech-challenge-25-26.jpg",
+      "c1/Logo.png",
     skills: ["Autonomous programming", "Teleoperate programming", "Java programming", "3D Modeling", "Teamwork"],
     category: "competition",
     href: "/competitions/first-tech-challenge-25-26",

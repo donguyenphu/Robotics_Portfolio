@@ -23,21 +23,15 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           <h1 className="mt-4 text-5xl font-semibold text-white">{post.title}</h1>
           {/* I */}
           <h2 className="mt-8 text-2xl font-bold text-white">I. Project Overview</h2>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">The robot functions based on a seasonal robotics competition called: <strong className="text-cyan-300">FIRST Tech Challenge</strong>.
-            DECODE™ presented by RTX is the archaeology-themed 2025–2026 game for the FIRST Tech Challenge,
-            requiring two-robot alliances to <strong className="text-cyan-300">rapidly collect, sort, and score 36 purple and green sphere "artifacts" into corner goals</strong>.
-            Robots navigate the playing field using <strong className="text-cyan-300">AprilTags</strong> to complete <strong className="text-cyan-300">precise sorting</strong> tasks across autonomous, tele-operated, and strategic end-game phases.
-            Take a look at the FTC 2025-2026 game overview:</p>
-          <div className="mt-2 flex gap-4 px-6 py-6 justify-center items-center">
-            <iframe
-              width="80%"
-              height="600"
-              src="https://www.youtube.com/embed/LCqWA6gSCXA"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen>
-            </iframe>
-          </div>
+          <p className="mt-2 text-lg leading-8 text-zinc-300">The robot is an <strong className="text-cyan-300">optimized version</strong> based on a seasonal robotics competition called: <strong className="text-cyan-300">FIRST Tech Challenge</strong>.
+            DECODE™ presented by RTX is the archaeology-themed 2025–2026 game for the FIRST Tech Challenge. 
+            <br></br>
+            For understanding more about the game, <Link
+                                                      href="/competitions/first-tech-challenge-25-26"
+                                                    >
+                                                      <strong className="text-lg leading-8 text-red-500">check out my post!</strong>
+                                                    </Link>
+          </p>
           {/* II */}
           <h2 className="mt-2 text-2xl font-bold text-white">II. Ideation & Concept Selection </h2>
           <p className="mt-2 text-lg leading-8 text-zinc-300">Throughout the preparation for the season, after analysing the game and optimizing scoring tactics, our team ,<strong className="text-cyan-300"> 32360 </strong>, came up with the final design (V1)</p>
