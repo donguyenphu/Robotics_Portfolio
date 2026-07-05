@@ -24,13 +24,13 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           {/* I */}
           <h2 className="mt-8 text-2xl font-bold text-white">I. Project Overview</h2>
           <p className="mt-2 text-lg leading-8 text-zinc-300">The robot is an <strong className="text-cyan-300">optimized version</strong> based on a seasonal robotics competition called: <strong className="text-cyan-300">FIRST Tech Challenge</strong>.
-            DECODE™ presented by RTX is the archaeology-themed 2025–2026 game for the FIRST Tech Challenge. 
+            DECODE™ presented by RTX is the archaeology-themed 2025–2026 game for the FIRST Tech Challenge.
             <br></br>
             For understanding more about the game, <Link
-                                                      href="/competitions/first-tech-challenge-25-26"
-                                                    >
-                                                      <strong className="text-lg leading-8 text-red-500">check out my post!</strong>
-                                                    </Link>
+              href="/competitions/first-tech-challenge-25-26"
+            >
+              <strong className="text-lg leading-8 text-red-500">check out my post!</strong>
+            </Link>
           </p>
           {/* II */}
           <h2 className="mt-2 text-2xl font-bold text-white">II. Ideation & Concept Selection </h2>
@@ -97,18 +97,29 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">2. Intake</p>
           <div className="flex gap-8 items-center">
-            <div className="w-[60%]">
+            <div className="w-[35%]">
               <p className="text-lg leading-8 text-zinc-300">● The only disadvantages of rubberband and fully TPU intake is cannot grabbing artifact in <strong className="text-cyan-300">multi direction</strong>, increasing intake time. I moved to the combination of <strong className="text-cyan-300">vectored and TPU wheels</strong>, which will be explained more clearly in the <strong className="text-cyan-300">IV. Validation & Versions</strong></p>
               <p className="text-lg leading-8 text-zinc-300">● For both versions, I use flexible intake for <strong className="text-cyan-300">deforming around the ball</strong>, effectively increasing the <strong className="text-cyan-300">capture area</strong> using <strong className="text-cyan-300">Linkage Mechanism</strong></p>
             </div>
-            <div className="w-[40%]">
-              <video
-                className="h-[80%] w-auto rounded-xl shadow-lg"
-                controls
-              >
-                <source src="/p1/Linkage.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <div className="w-[65%] flex gap-3 items-center">
+              <div className="w-[50%]">
+                <video
+                  className="h-full w-auto rounded-xl shadow-lg"
+                  controls
+                >
+                  <source src="/p1/Linkage.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div className="w-[50%]">
+                <video
+                  className="h-full w-auto rounded-xl shadow-lg"
+                  controls
+                >
+                  <source src="/p1/Linkage_2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
           </div>
           <p className="mt-4 text-lg leading-8 text-zinc-300">3. Ramp && Transfer system</p>
@@ -340,7 +351,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             <li><p className="mt-2 text-lg leading-8 text-zinc-300">● Researching and choosing materials carefully to avoid <strong className="text-cyan-300">unintended errors</strong></p></li>
           </ul>
           <Link
-            href="https://cad.onshape.com/documents/fe5105f48423e926dd579898/w/0ae7f5483803afc4b0b003a2/e/1f1ed5a7e08ff12544eb2cd2?renderMode=0&uiState=6a473af9d811ae4b0a525515"
+            href="https://cad.onshape.com/documents/b0e68da1990b8eb6cacdfa30/w/cd533e789092be5fd46c9d0f/e/1eab43d590957180473bfda8?renderMode=0&uiState=6a4a10b00587fe3d91d42401"
             className="text-blue-600 hover:text-blue-800 hover:underline"
           >
             <h3 className="mt-2 text-lg leading-8 text-red-500"><strong className="text-2xl">View my full work here!</strong></h3>
