@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react"; // Optional: Install l
 
 const images = [
   { src: "/p1/Full_V1.jpg", alt: "No. 1" },
-  { src: "/p1/Competition_v1.jpg", alt: "No. 2" },
+  { src: "/p1/Competition_V1.jpg", alt: "No. 2" },
   { src: "/p1/Online_V1.jpg", alt: "No. 3" },
   { src: "/p1/Inside_V1_Unofficial_Intake.jpg", alt: "No. 4" },
   { src: "/p1/V1_With_Unofficial_Intake_And_3D_Printed_Shooter.jpg", alt: "No. 5" },
