@@ -46,7 +46,7 @@ export default function SkillsPage() {
           </div>
         </section>
 
-        <div className="grid gap-8 xl:grid-cols-2">
+        <div className="grid gap-8 xl:grid-cols-3">
           {filteredPosts.length > 0 ? (
             filteredPosts.map((post) => (
               <Link

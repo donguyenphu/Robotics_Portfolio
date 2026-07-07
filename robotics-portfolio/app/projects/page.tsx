@@ -10,7 +10,7 @@ export default function ProjectsPage() {
     <div className="min-h-screen bg-[#02040b] text-white">
       <Header />
       <main className="mx-auto max-w-7xl py-14">
-        <div className="grid gap-8 xl:grid-cols-2">
+        <div className="grid gap-8 xl:grid-cols-3">
           {posts.map((post) => (
             <Link
               key={post.id}
