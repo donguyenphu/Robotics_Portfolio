@@ -35,7 +35,7 @@ export const projectPosts: PostEntry[] = [
     description:
       "Designed and built an end-to-end autonomous warehouse robot with ROS navigation, sensor fusion, and embedded control. The project includes path planning, object detection, and hardware/software integration for reliable indoor mobility.",
     image:
-      "p1/FTC-25-26-Offseason-Full.PNG",
+      "p2/Swerve_V1.png",
     skills: ["3D Modeling", "2D Design", "Brainstorming", "Computer Vision", "Researching"],
     category: "project",
     href: "/projects/customized-swerve-chassis",
