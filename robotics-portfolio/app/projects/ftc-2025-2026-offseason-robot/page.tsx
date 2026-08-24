@@ -86,8 +86,8 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           <div className="flex gap-4 items-center">
             <div className="w-[70%]">
               <p className="text-lg leading-8 text-zinc-300">Realizing the problem of having a big chassis led to <strong className="text-cyan-300">shortage of intaking space</strong> and <strong className="text-cyan-300">high intaking ramp</strong>,
-                I decided to make a custom drivetrain to fix these disadvantages with the <strong className="text-cyan-300">width</strong> and <strong className="text-cyan-300">length</strong> optimized by
-                <strong className="text-cyan-300">38.3%</strong> and <strong className="text-cyan-300">1.36%</strong>. I also use FeatureScript Vent to <strong className="text-cyan-300">lighten</strong> the aluminum but still ensure the <strong className="text-cyan-300">structural integrity</strong>, reducing <strong className="text-cyan-300">56%</strong> of chassis’s weight
+                I decided to make a custom drivetrain to fix these disadvantages with the <strong className="text-cyan-300">width</strong> and <strong className="text-cyan-300">length</strong> optimized by 
+                <strong className="text-cyan-300"> 38.3%</strong> and <strong className="text-cyan-300">1.36%</strong>. I also use FeatureScript Vent to <strong className="text-cyan-300">lighten</strong> the aluminum but still ensure the <strong className="text-cyan-300">structural integrity</strong>, reducing <strong className="text-cyan-300">56%</strong> of chassis’s weight
 
               </p>
             </div>

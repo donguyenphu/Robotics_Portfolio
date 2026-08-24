@@ -81,11 +81,11 @@ export default function Home() {
 
                 <div className="grid gap-5 sm:grid-cols-3">
                   {[
-                    { value: "10", label: "Projects" },
-                    { value: "10", label: "Skills" },
-                    { value: "4.0", label: "GPA" },
+                    { value: "2", label: "Projects" },
+                    { value: "12", label: "Skills" },
+                    { value: "None", label: "GPA" },
                   ].map((stat) => (
-                    <div key={stat.label} className="rounded-[1.75rem] border border-white/10 bg-[#08101f]/90 px-6 py-8 text-center shadow-[0_15px_60px_rgba(15,23,42,0.25)]">
+                    <div key={stat.label} className="m-auto rounded-[1.75rem] border border-white/10 bg-[#08101f]/90 px-6 py-8 text-center shadow-[0_15px_60px_rgba(15,23,42,0.25)]">
                       <p className="text-5xl font-semibold text-white">{stat.value}</p>
                       <p className="mt-2 text-sm uppercase tracking-[0.25em] text-cyan-300">{stat.label}</p>
                     </div>
@@ -126,7 +126,7 @@ export default function Home() {
                     <p className="text-lg font-semibold text-white">Duration: 2026 - 2030</p>
                   </div>
                   <div className="rounded-2xl bg-white/5 px-4 py-4">
-                    <p className="text-lg font-semibold text-white">GPA: 4.0</p>
+                    <p className="text-lg font-semibold text-white">GPA: None</p>
                   </div>
                 </div>
               </div>
