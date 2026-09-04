@@ -70,11 +70,11 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </div>
 
           <p className="mt-4 text-lg leading-8 text-zinc-300">However, after testing, there were several problems:</p>
-          <p className="text-lg leading-8 text-zinc-300">1. Intake</p>
+          <p className="text-lg leading-8 text-white">1. Intake</p>
           <p className="text-lg leading-8 text-zinc-300">● With a high <strong className="text-cyan-300">76mm offset</strong> from ground of base plate, the motor intake has to output roughly <strong className="text-cyan-300">1950 - 2200 RPM</strong> to successfully grab the artifact, thereby causing <strong className="text-cyan-300">wobbling and instability</strong> of intake</p>
-          <p className="text-lg leading-8 text-zinc-300">2. Spindexer</p>
+          <p className="text-lg leading-8 text-white">2. Spindexer</p>
           <p className="text-lg leading-8 text-zinc-300">● Even though the latency of color sensor is <strong className="text-cyan-300">not considerable (25ms compared to 60ms-170ms of intaking)</strong>, the <strong className="text-cyan-300">unstable structure</strong> of intake and <strong className="text-cyan-300">slipping in contact</strong> of base plate (aluminium) and artifact (EVA - like foam composite)</p>
-          <p className="text-lg leading-8 text-zinc-300">3. Tracking & Scoring</p>
+          <p className="text-lg leading-8 text-white">3. Tracking & Scoring</p>
           <p className="text-lg leading-8 text-zinc-300">
             ● Using 1 motor cause <strong className="text-cyan-300">unequal force diffusing</strong> and also <strong className="text-cyan-300">slow recovery speed</strong>, increasing time each scoring cycle
             <br></br>
@@ -82,7 +82,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </p>
           {/* III */}
           <h2 className="mt-2 text-2xl font-bold text-white">III. Detailed Engineering</h2>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">1. Chassis</p>
+          <p className="mt-4 text-lg leading-8 text-white">1. Chassis</p>
           <div className="flex gap-4 items-center">
             <div className="w-[70%]">
               <p className="text-lg leading-8 text-zinc-300">Realizing the problem of having a big chassis led to <strong className="text-cyan-300">shortage of intaking space</strong> and <strong className="text-cyan-300">high intaking ramp</strong>,
@@ -95,7 +95,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <img src="/p1/Chassis.png" className="w-full h-auto object-cover" />
             </div>
           </div>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">2. Intake</p>
+          <p className="mt-4 text-lg leading-8 text-white">2. Intake</p>
           <div className="flex gap-8 items-center">
             <div className="w-[35%]">
               <p className="text-lg leading-8 text-zinc-300">● The only disadvantages of rubberband and fully TPU intake is cannot grabbing artifact in <strong className="text-cyan-300">multi direction</strong>, increasing intake time. I moved to the combination of <strong className="text-cyan-300">vectored and TPU wheels</strong>, which will be explained more clearly in the <strong className="text-cyan-300">IV. Validation & Versions</strong></p>
@@ -122,7 +122,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </div>
             </div>
           </div>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">3. Ramp && Transfer system</p>
+          <p className="mt-4 text-lg leading-8 text-white">3. Ramp && Transfer system</p>
           <div className="flex gap-8 items-center">
             <div className="w-[30%]">
               <p className="text-lg leading-8 text-zinc-300">With the the problem of the indexer size and also time - point strategy (<strong className="text-cyan-300">balance</strong> speed and score instead off <strong className="text-cyan-300">all-in</strong> a perfect score),
@@ -137,7 +137,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </div>
             </div>
           </div>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">4. Turret & Tracking</p>
+          <p className="mt-4 text-lg leading-8 text-white">4. Turret & Tracking</p>
           <div className="flex gap-4 items-center">
             <div className="w-[75%]">
               <p className="text-lg leading-8 text-zinc-300">
@@ -159,7 +159,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </div>
             </div>
           </div>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">5. Shooter</p>
+          <p className="mt-4 text-lg leading-8 text-white">5. Shooter</p>
           <div className="flex gap-4 items-center">
             <div className="w-[50%]">
               <p className="text-lg leading-8 text-zinc-300">
@@ -181,7 +181,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </div>
             </div>
           </div>
-          <p className="mt-4 text-lg leading-8 text-zinc-300">6. Half-parking</p>
+          <p className="mt-4 text-lg leading-8 text-white">6. Half-parking</p>
           <div className="flex gap-4 items-center">
             <div className="w-[60%]">
               <p className="mt-4 text-lg leading-8 text-zinc-300">
@@ -203,7 +203,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           {/* IV */}
           <h2 className="mt-2 text-2xl font-bold text-white">IV. Validation & Versions</h2>
           <p className="mt-2 text-lg leading-8 text-zinc-300">On the process of building the final version, I made some iterations:</p>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">1. Intake</p>
+          <p className="mt-2 text-lg leading-8 text-white">1. Intake</p>
           <div className="flex gap-4 items-center">
             <div className="w-[75%]">
               <p className="mt-2 text-lg leading-8 text-zinc-300">
@@ -235,7 +235,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <img src="/p1/Vectored.png" className="w-full h-auto object-cover" />
             </div>
           </div>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">2. Transfer</p>
+          <p className="mt-2 text-lg leading-8 text-white">2. Transfer</p>
           <p className="text-lg leading-8 text-zinc-300">● Layer 1</p>
           <div className="flex gap-4 mt-4 items-center">
             <div className="w-[70%]">
@@ -254,7 +254,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <img src="/p1/Helical.png" className="w-full h-auto object-cover" />
             </div>
           </div>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">3. Turret</p>
+          <p className="mt-2 text-lg leading-8 text-white">3. Turret</p>
           <p className="mt-2 text-lg leading-8 text-zinc-300">● Using mass properties and data from external part’s store, The total weight is: <strong className="text-cyan-300">P<sub>shooter</sub> &asymp; 31.5(N)</strong>
             <br></br>
             ● With 1 : 3 gear ratio for <strong className="text-cyan-300">space-saving</strong> and <strong className="text-cyan-300">torque-reducing</strong>, the actual needed force is: <strong className="text-cyan-300">P<sub>actual</sub> &asymp; 10.5 (N)</strong>
@@ -273,7 +273,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             <br></br>
             With the beginning torque of <strong className="text-cyan-300">0.105 (N.m)</strong> adding <strong className="text-cyan-300">two 5:1 cartridge gearboxes</strong>, the output torque is safe and also meet the speed requirement
           </p>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">4. Shooter</p>
+          <p className="mt-2 text-lg leading-8 text-white">4. Shooter</p>
           <strong><p className="text-lg leading-8 text-zinc-300">Version 2: We optimized the version from V1 disadvantages to:</p></strong>
           <div className="flex gap-4 items-center">
             <div className="w-[70%]">
@@ -312,7 +312,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <img src="/p1/Shooter_V3.png" className="w-[80%]" />
             </div>
           </div>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">5. Half-parking</p>
+          <p className="mt-2 text-lg leading-8 text-white">5. Half-parking</p>
           <p className="mt-2 text-lg leading-8 text-zinc-300"><strong>Option 1: Gobilda Dual Mode Servo</strong></p>
           <div className="flex gap-2 items-center">
             <div className="w-[80%]">
@@ -340,12 +340,12 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           </div>
           {/* V */}
           <h2 className="mt-2 text-2xl font-bold text-white">V. Reflection</h2>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">5.1. Disadvantages</p>
+          <p className="mt-2 text-lg leading-8 text-white">1. Disadvantages</p>
           <ul>
             <li><p className="mt-2 text-lg leading-8 text-zinc-300">● The project is only in the process of finishing the <strong className="text-cyan-300">modeling and calculating</strong>. <strong className="text-cyan-300">Durability</strong> and <strong className="text-cyan-300">actual usage time</strong> need to be tested in real life to see the efficiency</p></li>
             <li><p className="mt-2 text-lg leading-8 text-zinc-300">● The mate features’ list is <strong className="text-cyan-300">chaotic</strong> because of <strong className="text-cyan-300">updating robot and making mates simultaneously</strong></p></li>
           </ul>
-          <p className="mt-2 text-lg leading-8 text-zinc-300">5.2. Learned lessons</p>
+          <p className="mt-2 text-lg leading-8 text-white">2. Learned lessons</p>
           <ul>
             <li><p className="mt-2 text-lg leading-8 text-zinc-300">● A good robot <strong className="text-cyan-300">isn’t perfectly functioned</strong>, it was made by choosing the best <strong className="text-cyan-300">trade-off scenarios</strong></p></li>
             <li><p className="mt-2 text-lg leading-8 text-zinc-300">● Researching and choosing materials carefully to avoid <strong className="text-cyan-300">unintended errors</strong></p></li>
