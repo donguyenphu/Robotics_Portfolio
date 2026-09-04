@@ -64,7 +64,7 @@ export default function FirstTechChallenge2526() {
               href="https://ftcbirdwatch.com/"
               className="text-fuchsia-600"
             >
-              <strong>FTC Birdwatch</strong>
+               <strong> FTC Birdwatch</strong>
             </Link>
           </h6>
           {/* II */}
@@ -143,7 +143,7 @@ export default function FirstTechChallenge2526() {
             </div>
             <div className="rounded-2xl bg-white/5 px-4 py-4">
               <p className="text-lg font-semibold text-white">
-                Instead of using Limelight 3A or Camera to track the goals, they use robot’s heading from Pinpoint or Control Hub to track the goals and manually align the robot’s turret to the goal (there could be an error of 4-8 degrees throughout the match, but the efficiency is considerable with 5 times less in latency, less wiring, saving battery, and simplifying the code)
+                Instead of using Limelight 3A or Camera to track the goals, they use robot’s heading from <strong className="text-fuchsia-600">Pinpoint</strong> or <strong className="text-fuchsia-600">Control Hub</strong> to track the goals and <strong className="text-fuchsia-600">manually align</strong> the robot’s turret to the goal before the Autonomous Period(there could be an <strong className="text-fuchsia-600">error of 4-8 degrees</strong> throughout the match, but the efficiency is considerable with <strong className="text-fuchsia-600">5 times less in latency, less wiring, saving battery</strong>, and <strong className="text-fuchsia-600">simplifying the code</strong>)
               </p>
             </div>
           </div>
