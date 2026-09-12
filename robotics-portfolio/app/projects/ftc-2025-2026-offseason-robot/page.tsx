@@ -86,13 +86,13 @@ export default function FirstTechChallenge2526OffseasonRobot() {
           <div className="flex gap-4 items-center">
             <div className="w-[70%]">
               <p className="text-lg leading-8 text-zinc-300">Realizing the problem of having a big chassis led to <strong className="text-cyan-300">shortage of intaking space</strong> and <strong className="text-cyan-300">high intaking ramp</strong>,
-                I decided to make a custom drivetrain to fix these disadvantages with the <strong className="text-cyan-300">width</strong> and <strong className="text-cyan-300">length</strong> optimized by 
+                I decided to make a custom drivetrain to fix these disadvantages with the <strong className="text-cyan-300">width</strong> and <strong className="text-cyan-300">length</strong> optimized by
                 <strong className="text-cyan-300"> 38.3%</strong> and <strong className="text-cyan-300">1.36%</strong>. I also use FeatureScript Vent to <strong className="text-cyan-300">lighten</strong> the aluminum but still ensure the <strong className="text-cyan-300">structural integrity</strong>, reducing <strong className="text-cyan-300">56%</strong> of chassis’s weight
 
               </p>
             </div>
             <div className="w-[30%]">
-              <img src="/p1/Chassis.png" className="w-full h-auto object-cover" />
+              <img src="/p1/Chassis.png" className="w-full h-auto object-cover rounded-[10px]" />
             </div>
           </div>
           <p className="mt-4 text-lg leading-8 text-white">2. Intake</p>
@@ -130,10 +130,10 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             </div>
             <div className="flex gap-4 space-y-3 w-[70%] items-center">
               <div>
-                <img src="/p1/Ramp.PNG" className="w-full h-auto object-cover" />
+                <img src="/p1/Ramp.PNG" className="w-full h-auto object-cover rounded-[10px]" />
               </div>
               <div>
-                <img src="/p1/Gate.png" className="w-full h-auto object-cover" />
+                <img src="/p1/Gate.png" className="w-full h-auto object-cover rounded-[10px]" />
               </div>
             </div>
           </div>
@@ -152,10 +152,10 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             </div>
             <div className="w-[25%] space-y-2">
               <div className="w-full h-[80%]">
-                <img src="/p1/Pinpoint.png" className="w-full h-full object-cover" />
+                <img src="/p1/Pinpoint.png" className="w-full h-full object-cover rounded-[10px]" />
               </div>
               <div className="w-full h-[20%]">
-                <img src="/p1/Turret.png" className="w-full h-full object-cover" />
+                <img src="/p1/Turret.png" className="w-full h-full object-cover rounded-[10px]" />
               </div>
             </div>
           </div>
@@ -174,10 +174,10 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             </div>
             <div className="flex gap-4 w-[50%] space-y-2 items-center">
               <div className="w-full h-[80%]">
-                <img src="/p1/Angle.png" className="w-full h-full object-cover" />
+                <img src="/p1/Angle.png" className="w-full h-full object-cover rounded-[10px]" />
               </div>
               <div className="w-full h-[20%]">
-                <img src="/p1/ShooterMotor.png" className="w-full h-full object-cover" />
+                <img src="/p1/ShooterMotor.png" className="w-full h-full object-cover rounded-[10px]" />
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </p>
             </div>
             <div className="w-[25%]">
-              <img src="/p1/TPU.PNG" className="w-full aspect-[3/2] object-cover" />
+              <img src="/p1/TPU.PNG" className="w-full aspect-[3/2] object-cover rounded-[10px]" />
             </div>
           </div>
           <div className="flex gap-4 mt-4 items-center">
@@ -221,7 +221,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </p>
             </div>
             <div className="w-[40%]">
-              <img src="/p1/TPU_Direction.png" className="w-full h-auto object-cover" />
+              <img src="/p1/TPU_Direction.png" className="w-full h-auto object-cover rounded-[10px]" />
             </div>
           </div>
           <div className="flex gap-4 mt-4 items-center">
@@ -232,7 +232,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               </p>
             </div>
             <div className="w-[30%]">
-              <img src="/p1/Vectored.png" className="w-full h-auto object-cover" />
+              <img src="/p1/Vectored.png" className="w-full h-auto object-cover rounded-[10px]" />
             </div>
           </div>
           <p className="mt-2 text-lg leading-8 text-white">2. Transfer</p>
@@ -242,7 +242,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <p className="text-lg leading-8 text-zinc-300">I decided to make a tassels transfering layer because of the <strong className="text-cyan-300">flexibility</strong> and <strong className="text-cyan-300">passively gripping</strong> of 3 rubber stick each tassel</p>
             </div>
             <div className="w-[30%]">
-              <img src="/p1/Tassels.png" className="w-full h-auto aspect-[40/21] object-cover" />
+              <img src="/p1/Tassels.png" className="w-full h-auto aspect-[40/21] object-cover rounded-[10px]" />
             </div>
           </div>
           <p className="text-lg leading-8 text-zinc-300">● Layer 2</p>
@@ -251,7 +251,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <p className="text-lg leading-8 text-zinc-300">With the same structure as the vectored + TPU wheel intake, I make side transfer as helical gear to <strong className="text-cyan-300">redirect</strong> the ball to the center and spur gear to <strong className="text-cyan-300">directly transfer</strong> to the shooter</p>
             </div>
             <div className="w-[30%]">
-              <img src="/p1/Helical.png" className="w-full h-auto object-cover" />
+              <img src="/p1/Helical.png" className="w-full h-auto object-cover rounded-[10px]" />
             </div>
           </div>
           <p className="mt-2 text-lg leading-8 text-white">3. Turret</p>
@@ -274,7 +274,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             With the beginning torque of <strong className="text-cyan-300">0.105 (N.m)</strong> adding <strong className="text-cyan-300">two 5:1 cartridge gearboxes</strong>, the output torque is safe and also meet the speed requirement
           </p>
           <p className="mt-2 text-lg leading-8 text-white">4. Shooter</p>
-          <strong><p className="text-lg leading-8 text-zinc-300">Version 2: We optimized the version from V1 disadvantages to:</p></strong>
+          <strong><p className="text-lg leading-8 text-zinc-300">Version 2: I optimized the version from V1 disadvantages to:</p></strong>
           <div className="flex gap-4 items-center">
             <div className="w-[70%]">
               <ul>
@@ -291,25 +291,77 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <p className="mt-2 text-lg leading-8 text-zinc-300">However, with <strong className="text-cyan-300">limited angle</strong> and <strong className="text-cyan-300">angle loss</strong> from ball colliding without remodifying, I switched to a new version</p>
             </div>
             <div className="w-[30%] flex justify-center">
-              <img src="/p1/Shooter_V2.png" className="w-[90%]" />
+              <img src="/p1/Shooter_V2.png" className="w-[90%] rounded-[10px]" />
             </div>
           </div>
-          <strong><p className="mt-4 text-lg leading-8 text-zinc-300">Version 3: We optimized the version from V2 disadvantages to:</p></strong>
-          <div className="flex gap-4 items-center">
-            <div className="w-[70%]">
-              <ul>
-                <li>
-                  <p className="mt-2 text-lg leading-8 text-zinc-300">● Limelight 3A latency: With aligning the shooter to <strong className="text-cyan-300">center the goal's AprilTag at the beginning</strong></p>
-                  <p className="mt-2 text-lg leading-8 text-zinc-300">&rarr; <strong className="text-cyan-300">shooter's angular error = &Delta; <sub>robot's heading</sub></strong></p>
-                  <p className="mt-2 text-lg leading-8 text-zinc-300">&rarr; We can use Pinpoint with about <strong className="text-cyan-300">⅕ latency</strong> of Limelight 3A to track robot’s heading</p>
-                </li>
-                <li>
-                  <p className="mt-2 text-lg leading-8 text-zinc-300">● Hood angle: Changed to 1:1. With 1.3 m/s of robot’s speed and 0.14s/60 deg of the servo, it is completely possible to <strong className="text-cyan-300">“catch</strong>” the continuously tracking speed but still <strong className="text-cyan-300">preventing angle loss</strong></p>
-                </li>
-              </ul>
+          <strong><p className="mt-4 text-lg leading-8 text-zinc-300">Version 3: I optimized the version from V2 disadvantages to:</p></strong>
+          <div className="w-full">
+            <ul>
+              <li>
+                <p className="mt-2 text-lg leading-8 text-zinc-300">● Limelight 3A latency: With aligning the shooter to <strong className="text-cyan-300">center the goal's AprilTag at the beginning</strong></p>
+                <p className="mt-2 text-lg leading-8 text-zinc-300">&rarr; <strong className="text-cyan-300">shooter's angular error = &Delta; <sub>robot's heading</sub></strong></p>
+                <p className="mt-2 text-lg leading-8 text-zinc-300">&rarr; I can use Pinpoint with about <strong className="text-cyan-300">⅕ latency</strong> of Limelight 3A to track robot’s heading</p>
+              </li>
+              <li>
+                <p className="mt-2 text-lg leading-8 text-zinc-300">● Hood angle: Changed to 1:1. With 1.3 m/s of robot’s speed and 0.14s/60 deg of the servo, it is completely possible to <strong className="text-cyan-300">catch</strong> the continuously tracking speed but still <strong className="text-cyan-300">preventing angle loss</strong>. Below are <strong className="text-cyan-300">3</strong> iterations of the <strong className="text-cyan-300">Hood Angle Adjustment:</strong> </p>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-5 space-y-3">
+            <div className="w-full p-4 rounded-[10px] bg-gradient-to-br from-fuchsia-500/20 via-violet-500/15 to-transparent">
+              <p className="mt-2 text-xl leading-8 text-red-600"><strong> First Version: Direct connection from Servo Horn to the Hood Angle (FAILED)</strong> </p>
+              <p className="mt-2 text-lg leading-8 text-zinc-300">
+                However, I made a mistake in the design: The center of the hood angle and the hood adjustment are not concentric
+                <br />
+                <br />
+                ⟶ With the <strong className="text-cyan-300">fixed hood angle center</strong>, the <strong className="text-cyan-300">center of the hood adjustment keeps changing</strong>
+              </p>
+              <div className="w-full flex gap-5 justify-center items-center my-3">
+                <div className="w-[62%] m-auto">
+                  <img src="/p1/Shooter V3.1 2D.png" className="w-full h-auto rounded-[10px] rounded-[10px]" />
+                </div>
+                <div className="w-[38%]">
+                  <img src="/p1/Shooter_V3.png" className="w-full h-auto rounded-[10px] rounded-[10px]" />
+                </div>
+              </div>
             </div>
-            <div className="w-[30%] flex justify-center">
-              <img src="/p1/Shooter_V3.png" className="w-[80%]" />
+            <div className="w-full p-4 rounded-[10px] bg-gradient-to-br from-fuchsia-500/20 via-violet-500/15 to-transparent">
+              <p className="mt-2 text-xl leading-8 text-red-600"><strong> Second Version: Linkage Mechanism (FAILED)
+              </strong> </p>
+              <p className="mt-2 text-lg leading-8 text-zinc-300">
+                With the fixed center of both the Servo Horn and Hood Adjustment
+                <br />
+                <br />
+                ⟶ When <strong className="text-cyan-300">changing the shooter angle</strong>, the distance from the center to the endpoint of the Hood Adjustment and the distance from the center of the Servo Horn to the center of the Hood Adjustment will <strong className="text-cyan-300">both be fixed.</strong>
+                <br />
+                <br />
+                ⟶ <strong className="text-cyan-300">Both lengths can’t be fixed simultaneously when changing the angle</strong>
+              </p>
+              <div className="w-full flex gap-5 justify-center items-center my-3">
+                <div className="w-[59%] m-auto">
+                  <img src="/p1/Shooter V3.2 2D.png" className="w-full h-auto rounded-[10px]" />
+                </div>
+                <div className="w-[41%]">
+                  <img src="/p1/Shooter_V3_2.png" className="w-full h-auto rounded-[10px]" />
+                </div>
+              </div>
+            </div>
+            <div className="w-full p-4 rounded-[10px] bg-gradient-to-br from-fuchsia-500/20 via-violet-500/15 to-transparent">
+              <p className="mt-2 text-xl leading-8 text-green-500"><strong> Third Version: 2 1:1 ratio gears (SUCCESS):</strong> </p>
+              <p className="mt-2 text-lg leading-8 text-zinc-300">
+                To make 2 lengths fixed when changing the angle, a solution is having a set of points that have the same length 
+                <br />
+                <br />
+                ⟶ I use helical gears instead of spur gears to <strong className="text-cyan-300">change the angle</strong> and also <strong className="text-cyan-300">avoid gears colliding at high speed</strong>
+              </p>
+              <div className="w-full flex gap-5 justify-center items-center my-3">
+                <div className="w-[62%] m-auto">
+                  <img src="/p1/Shooter V3.3 2D.png" className="w-full h-auto rounded-[10px] rounded-[10px]" />
+                </div>
+                <div className="w-[38%]">
+                  <img src="/p1/Shooter_V3_3.png" className="w-full h-auto rounded-[10px] rounded-[10px]" />
+                </div>
+              </div>
             </div>
           </div>
           <p className="mt-2 text-lg leading-8 text-white">5. Half-parking</p>
@@ -318,12 +370,12 @@ export default function FirstTechChallenge2526OffseasonRobot() {
             <div className="w-[80%]">
               <p className="mt-2 text-lg leading-8 text-zinc-300">● Using mass properties in Onshape and searching supplier stores, I estimate the total mass of the robot is:</p>
               <p className="text-lg leading-8 text-zinc-300"><strong className="text-cyan-300">m<sub>robot</sub> = 13.4 (kg)</strong> &rarr; <strong className="text-cyan-300">P<sub>robot</sub> &asymp; 130.5 (N)</strong></p>
-              <p className="mt-2 text-lg leading-8 text-zinc-300">● With <strong className="text-cyan-300">&alpha; &asymp; 50&deg;</strong> and <strong className="text-cyan-300">r <sub>kickstand</sub> = 0.1 (m)</strong>, we have the format:</p>
+              <p className="mt-2 text-lg leading-8 text-zinc-300">● With <strong className="text-cyan-300">&alpha; &asymp; 50&deg;</strong> and <strong className="text-cyan-300">r <sub>kickstand</sub> = 0.1 (m)</strong>, I have the format:</p>
               <p className="mt-2 text-lg leading-8 text-zinc-300">&rarr; <strong className="text-cyan-300">T<sub>needed</sub> = r<sub>arm</sub> * P<sub>robot</sub> * sine(&alpha;) &asymp; 10 (N.m)</strong></p>
               <p className="mt-2 text-lg leading-8 text-zinc-300">With maximum stall torque of <strong className="text-cyan-300">2.47 (N.m)</strong> at 7.4 (V) &rarr; this choice is not possible</p>
             </div>
             <div className="w-[20%]">
-              <img src="/p1/V1_Servo.png" className="w-full h-auto object-cover" />
+              <img src="/p1/V1_Servo.png" className="w-full h-auto object-cover rounded-[10px]" />
             </div>
           </div>
           <p className="mt-2 text-lg leading-8 text-zinc-300"><strong>Option 2: Shark-2 Servo</strong></p>
@@ -335,7 +387,7 @@ export default function FirstTechChallenge2526OffseasonRobot() {
               <p className="mt-2 text-lg leading-8 text-zinc-300">With minimum stall torque of <strong className="text-cyan-300">6.67 (N.m)</strong> at 6.0-7.4 (v) &rarr; this choice is accepted</p>
             </div>
             <div className="w-[20%]">
-              <img src="/p1/V2_Servo.png" className="w-full h-auto object-cover" />
+              <img src="/p1/V2_Servo.png" className="w-full h-auto object-cover rounded-[10px]" />
             </div>
           </div>
           {/* V */}

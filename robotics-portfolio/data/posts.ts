@@ -28,20 +28,20 @@ export const projectPosts: PostEntry[] = [
     date: "01/2026-05/2026",
     status: "Finished",
   },
-  {
-    id: "3-axis-chassis-module",
-    title: "3 Axis Chassis Module",
-    summary: "Utilizing standardized <strong>hardware and firmware limits</strong>, the project integrates three distinct chassis modules for specialized operational environments. It showcases <strong>Omnidirectional Agility</strong> through an advanced, field-centric Swerve drive; <strong>All-Terrain Durability</strong> via a high-traction, shock-absorbing suspension pod; and <strong>High-Impact Robustness</strong> with a monolithic, combat-ready drive assembly ",
-    description:
-      "By utilizing standardized <strong>hardware and firmware limits</strong>, the project seamlessly integrates three distinct chassis modules for specialized operational environments. It showcases <strong>Omnidirectional Agility</strong> through an advanced, field-centric Swerve drive; <strong>All-Terrain Durability</strong> via a high-traction, shock-absorbing suspension pod; and <strong>High-Impact Robustness</strong> with a monolithic, combat-ready drive assembly ",
-    image:
-      "p2/Swerve_V1.png",
-    skills: ["3D Modeling", "2D Design", "Gear Designing", "Project Structuring", "Material Adapting"],
-    category: "project",
-    href: "/projects/3-axis-chassis-module",
-    date: "05/2026-Now",
-    status: "Pending",
-  },
+  // {
+  //   id: "3-axis-chassis-module",
+  //   title: "3 Axis Chassis Module",
+  //   summary: "Utilizing standardized <strong>hardware and firmware limits</strong>, the project integrates three distinct chassis modules for specialized operational environments. It showcases <strong>Omnidirectional Agility</strong> through an advanced, field-centric Swerve drive; <strong>All-Terrain Durability</strong> via a high-traction, shock-absorbing suspension pod; and <strong>High-Impact Robustness</strong> with a monolithic, combat-ready drive assembly ",
+  //   description:
+  //     "By utilizing standardized <strong>hardware and firmware limits</strong>, the project seamlessly integrates three distinct chassis modules for specialized operational environments. It showcases <strong>Omnidirectional Agility</strong> through an advanced, field-centric Swerve drive; <strong>All-Terrain Durability</strong> via a high-traction, shock-absorbing suspension pod; and <strong>High-Impact Robustness</strong> with a monolithic, combat-ready drive assembly ",
+  //   image:
+  //     "p2/Swerve_V1.png",
+  //   skills: ["3D Modeling", "2D Design", "Gear Designing", "Project Structuring", "Material Adapting"],
+  //   category: "project",
+  //   href: "/projects/3-axis-chassis-module",
+  //   date: "05/2026-Now",
+  //   status: "Pending",
+  // },
 ];
 // COMPETITION
 export const competitionPosts: PostEntry[] = [
